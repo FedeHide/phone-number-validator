@@ -1,14 +1,14 @@
-# Title
+# Telephone Number Validator | freeCodeCamp
 
-### Check the site [Here](https://fedehide.github.io/endpoint " alt")
+### Check the site [Here](https://fedehide.github.io/phone-number-validator " US phone number validator")
 
 ------------
 
-<!-- [![palindome-checker-ss.png](https://i.postimg.cc/XqZKFdMW/palindome-checker-ss.png)](https://postimg.cc/jnbJYWd3) -->
+[![phone-number-validator-screenshot.webp](/public/images/phone-number-validator-screenshot.webp)](/public/images/phone-number-validator-screenshot.webp)
 
 ## Features
 
-- 🔢 Features
+- 📞 US phone number validator
 
 ## Contribution
 
