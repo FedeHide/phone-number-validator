@@ -1,0 +1,31 @@
+@use '../base/' as *;
+
+.validator-container__btn {
+	color: $clr-font-black;
+	padding: 0.7em 1.7em;
+	@include clamp-font-size(16px, 20px);
+	border-radius: 0.5em;
+	background: $clr-btn;
+	cursor: pointer;
+	border: 1px solid $clr-btn;
+	transition: all 0.3s;
+	box-shadow:
+		6px 6px 12px $shadow-clr-btn,
+		-6px -6px 12px $clr-btn-active;
+}
+
+@include hover {
+	.validator-container__btn:hover {
+		color: $shadow-clr-btn-hover;
+		box-shadow:
+			6px 6px 12px $shadow-clr-btn,
+			0 0 15px 0 $shadow-clr-btn-hover;
+	}
+}
+
+.validator-container__btn:active {
+	color: $shadow-clr-btn-hover;
+	box-shadow:
+		inset 4px 4px 12px $shadow-clr-btn,
+		inset -4px -4px 12px $clr-btn-active;
+}

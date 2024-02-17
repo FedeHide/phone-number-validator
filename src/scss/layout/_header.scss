@@ -1,0 +1,11 @@
+@use '../base/' as *;
+
+.header {
+	margin-block: 2.5rem;
+
+	&__title {
+		@include clamp-font-size(24px, 48px);
+		color: $clr-font-black;
+		border-bottom: 1px solid $clr-font-black;
+	}
+}

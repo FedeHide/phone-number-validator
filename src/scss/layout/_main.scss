@@ -1,0 +1,66 @@
+@use '../base/' as *;
+
+body {
+	background-color: $clr-bg;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem;
+	font-family: $ff-global;
+}
+
+.validator-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+
+	&__btns {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		gap: 2rem;
+	}
+
+	&__result {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 2rem;
+		padding: 2rem;
+		color: $clr-font-black;
+		border-radius: 50px;
+		background: #e0e0e0;
+		box-shadow:
+			31px 31px 63px #bebebe,
+			-31px -31px 63px #ffffff;
+	}
+
+	&__text {
+		width: 100%;
+		word-wrap: break-word;
+		text-align: center;
+		@include clamp-font-size(12px, 24px);
+	}
+}
+
+@include device(tablet) {
+	.validator-container {
+		max-width: calculateRem(679px);
+		gap: 1.5rem;
+	}
+}
+
+@include device(desktop) {
+	.validator-container {
+		max-width: calculateRem(950px);
+		gap: 2rem;
+	}
+}

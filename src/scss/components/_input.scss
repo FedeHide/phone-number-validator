@@ -1,0 +1,55 @@
+@use '../base/' as *;
+
+.input-container {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	margin: 20px 0;
+	color: $clr-font-black;
+
+	&__label {
+		position: absolute;
+		margin: 0 20px;
+		padding: 0 12px;
+		@include clamp-font-size(12px, 24px);
+		line-height: 30px;
+		background-color: $clr-bg;
+		transform: translate(-10px, -16px);
+		z-index: 101;
+	}
+	&__input {
+		position: absolute;
+		width: 100%;
+		padding: 0 30px;
+		@include clamp-font-size(20px, 36px);
+		line-height: 80px;
+		background: transparent;
+		border-radius: 10px;
+		border: 2px solid $clr-font-black;
+		outline: none;
+		z-index: 101;
+		color: $clr-font-black;
+	}
+
+	@include hover {
+		&__input:hover,
+		&__input:focus {
+			border: 4px solid $clr-font-secondary;
+		}
+		&__input:hover + &__label,
+		&__input:focus + &__label {
+			color: $clr-font-secondary;
+		}
+	}
+
+	@include touch {
+		&__input:active,
+		&__input:focus {
+			border: 4px solid $clr-font-secondary;
+		}
+		&__input:active + &__label,
+		&__input:focus + &__label {
+			color: $clr-font-secondary;
+		}
+	}
+}
