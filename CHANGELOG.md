@@ -1,6 +1,6 @@
 # Changelog
 
-## [v0.1.0](https://github.com/FedeHide/phone-number-validator/releases/tag/v0.1.0) (yyyy-mm-dd)
+## [v0.1.0](https://github.com/FedeHide/phone-number-validator/releases/tag/v0.1.0) (2024-02-17)
 
 ### Features
 
