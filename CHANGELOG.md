@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.1.1](https://github.com/FedeHide/phone-number-validator/releases/tag/v0.1.1) (2024-02-18)
+
+### Fix
+
+* **hotfix:** small phone title line break ([a79d99b](https://github.com/FedeHide/phone-number-validator/commit/a79d99b2149cf06217329b85b951362446c4ab27))
+
+
 ## [v0.1.0](https://github.com/FedeHide/phone-number-validator/releases/tag/v0.1.0) (2024-02-17)
 
 ### Features
