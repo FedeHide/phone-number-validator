@@ -1,7 +1,6 @@
 {
 	"name": "phone-number-validator",
 	"version": "0.1.0",
-	"private": true,
 	"license": "MIT",
 	"author": {
 		"name": "@FedeHide"
