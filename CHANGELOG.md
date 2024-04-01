@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.2](https://github.com/FedeHide/phone-number-validator/releases/tag/v0.1.2) (2024-04-01)
+
+### Fix
+
+* **hotfix:** change screenshot to webp ([0466f45](https://github.com/FedeHide/phone-number-validator/commit/0466f45c65c2381a1ec7308acc7b1b384e2f11f8))
+
 ## [v0.1.1](https://github.com/FedeHide/phone-number-validator/releases/tag/v0.1.1) (2024-02-18)
 
 ### Fix
