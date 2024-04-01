@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.0](https://github.com/FedeHide/phone-number-validator/releases/tag/v1.0.0) (2024-04-01)
+
+### Features
+
+* **break:** migration to next js ([3b8145d](https://github.com/FedeHide/phone-number-validator/commit/3b8145d52f96e1ee2f9c384a5ec53fc6f3d310b1))
+
 ## [v0.1.2](https://github.com/FedeHide/phone-number-validator/releases/tag/v0.1.2) (2024-04-01)
 
 ### Fix

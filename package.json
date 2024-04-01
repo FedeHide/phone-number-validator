@@ -1,6 +1,6 @@
 {
 	"name": "phone-number-validator",
-	"version": "0.1.2",
+	"version": "1.0.0",
 	"private": false,
 	"scripts": {
 		"dev": "next dev",
