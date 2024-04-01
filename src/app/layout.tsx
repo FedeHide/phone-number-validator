@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 		icon: '/favicon.ico',
 	},
 	openGraph: {
-		url: 'https://phone-number-validator.vercel.app/',
+		url: 'https://phone-number-validator-chi.vercel.app/',
 		type: 'website',
 		title: 'Telephone Number Validator | freeCodeCamp',
 		description: 'This is a Telephone Number Validator, a freecodecamp assignment',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		site: 'https://phone-number-validator.vercel.app/',
+		site: 'https://phone-number-validator-chi.vercel.app/',
 	},
 }
 
