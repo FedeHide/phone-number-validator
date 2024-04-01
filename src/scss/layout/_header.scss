@@ -7,5 +7,6 @@
 		@include clamp-font-size(16px, 48px);
 		color: $clr-font-black;
 		border-bottom: 1px solid $clr-font-black;
+		user-select: none;
 	}
 }

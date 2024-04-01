@@ -1,6 +1,7 @@
 *.md
 *LICENSE
 /node_modules
+/dist
 
 # sass
 .sass-cache/

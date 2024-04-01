@@ -28,7 +28,6 @@ html {
 	font-size: 100%;
 	hanging-punctuation: first last;
 	overflow-x: hidden;
-	color-scheme: dark light;
 }
 
 /* Set core root defaults */
@@ -53,9 +52,10 @@ html:focus-within {
 }
 
 /* Add smooth scroll on targets*/
+/*for sticky header or just add space*/
 @media (prefers-reduced-motion: no-preference) {
 	:has(:target) {
-		// scroll-padding-top: 3rem; //for sticky header or just add space
+		scroll-padding-top: 3rem;
 		scroll-behavior: smooth;
 	}
 }

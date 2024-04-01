@@ -1,10 +1,20 @@
 # Telephone Number Validator | freeCodeCamp
 
-### Check the site [Here](https://fedehide.github.io/phone-number-validator " US phone number validator")
+### Check the site [Here](https://phone-number-validator.vercel.app/ " US phone number validator")
+
+## Introduction
+This is a phone number validator, a freecodecamp assignment.
+
+## Technologies Used
+<div>
+	<a href="https://skillicons.dev">
+		<img src="https://skillicons.dev/icons?i=nextjs,ts,sass" />
+	</a>
+</div>
 
 ------------
 
-[![phone-number-validator-screenshot.webp](/public/images/phone-number-validator-screenshot.webp)](/public/images/phone-number-validator-screenshot.webp)
+[![phone-number-validator-screenshot.webp](https://raw.githubusercontent.com/FedeHide/phone-number-validator/main/public/assets/phone-number-validator-screenshot.webp)](https://phone-number-validator.vercel.app/)
 
 ## Features
 
