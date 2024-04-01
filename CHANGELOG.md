@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.1](https://github.com/FedeHide/phone-number-validator/releases/tag/v1.0.1) (2024-04-01)
+
+### Features
+
+* **hotfix:** url domain on readme and meta tags ([1139b5e](https://github.com/FedeHide/phone-number-validator/commit/1139b5e170ae13832642cfd1b0880bec1e38bc93))
+
 ## [v1.0.0](https://github.com/FedeHide/phone-number-validator/releases/tag/v1.0.0) (2024-04-01)
 
 ### Features
